@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/*
+Flaticon icon font: Flaticon
+Creation date: 02/05/2018 12:43
+*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"), url("./Flaticon.woff") format("woff"), url("./Flaticon.ttf") format("truetype"), url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-github-draw-logo:before {
+  content: "";
+}
+
+.flaticon-code-fork-symbol:before {
+  content: "";
+}
+
+.flaticon-coding:before {
+  content: "";
+}
+
+.flaticon-terminal:before {
+  content: "";
+}
+
+.flaticon-blog:before {
+  content: "";
+}
+
+.flaticon-study:before {
+  content: "";
+}
+
+.flaticon-coffee-cup:before {
+  content: "";
+}
+
+.flaticon-company:before {
+  content: "";
+}
+
+.flaticon-management:before {
+  content: "";
+}
+
+.flaticon-customer-support:before {
+  content: "";
+}
+
+.flaticon-bot:before {
+  content: "";
+}
+
+.flaticon-close:before {
+  content: "";
+}
+
+.flaticon-multiply:before {
+  content: "";
+}
+
+.flaticon-delete:before {
+  content: "";
+}
+
+.flaticon-cross-out:before {
+  content: "";
+}
+
+.flaticon-robot-1:before {
+  content: "";
+}
+
+.flaticon-artificial-intelligence:before {
+  content: "";
+}
+
+.flaticon-technology:before {
+  content: "";
+}
+
+.flaticon-robot:before {
+  content: "";
+}
+
+.flaticon-paper-plane:before {
+  content: "";
+}
+
+.flaticon-microphone-black-shape:before {
+  content: "";
+}
+
+body {
+  margin: 0 !important;
+}
+
+.main {
+  background: #bc3131;
+  min-height: 100vh;
+}
+
+input[type=text].user-input {
+  padding: 20px;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Archivo Black", sans-serif;
+  background: #E2856E;
+  border-radius: 40px;
+  border: none;
+}
+input[type=text].user-input::placeholder {
+  color: white;
+}
+input[type=text].user-input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.typewriter.start-typing span {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  animation: typing 3.5s steps(80, end), blink-caret 0.75s step-end infinite;
+}
+
+/*# sourceMappingURL=main.css.map */

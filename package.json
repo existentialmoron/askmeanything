@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dialogflow": "^0.3.0",
+    "jquery": "^3.3.1"
+  }
+}

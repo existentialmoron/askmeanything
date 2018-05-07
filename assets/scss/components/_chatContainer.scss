@@ -1,0 +1,12 @@
+.chat-container {
+	height: 40vh;
+	overflow: auto;
+	width: 80%;
+	padding: 1rem 1.2rem;
+	color: white;
+	font-family: 'Arcade', sans-serif;
+	margin: 1rem auto;
+	background: darken(#bc3131, 7%);
+	text-align: left;
+	border-radius: 14px;
+}

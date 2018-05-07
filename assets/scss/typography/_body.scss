@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Arcade";
+    src: url("../fonts/ARCADE.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Badabb";
+	src: url("../fonts/BADABB__.TTF");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Space3";
+	src: url("../fonts/space3.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Tetri";
+	src: url("../fonts/tetri.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Inconsolata Regular";
+	src: url("../fonts/Inconsolata-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;	
+}
+
+@font-face {
+	font-family: "Inconsolata Bold";
+	src: url("../fonts/Inconsolata-Bold.ttf");
+	font-weight: normal;
+	font-style: normal;	
+}
+
+body {
+    font-size: 24px;
+    font-family: 'Inconsolata Bold', sans-serif;
+}

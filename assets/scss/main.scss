@@ -1,0 +1,40 @@
+@import './icon-fonts/flaticon';
+@import './layouts/home';
+@import './components/input';
+@import './animations/typing';
+@import './typography/body';
+@import './components/chatContainer';
+@import './components/scrollbar';
+
+.typewrite .wrap {
+  font-size: 3rem;
+  font-family: "Arcade";
+  overflow: hidden;
+  word-spacing: nowrap;
+}
+
+.chat-container .bot-msg {
+  color: black;
+  font-family: 'Arcade', sans-serif;
+  font-size: 1.5rem;
+}
+
+.chat-container .user-msg {
+  color: orange;
+  font-family: 'Inconsolata Bold', sans-serif;
+
+  &:before {
+    content: '$ '
+  }
+}
+
+.heading {
+  text-align: center;
+  h1 {
+    font-family: 'Tetri';
+    letter-spacing: .5em;
+    color: orange;
+    margin-top: 0px;
+    padding: 30px 10px;
+  }
+}

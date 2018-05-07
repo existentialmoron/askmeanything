@@ -1,0 +1,330 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 02/05/2018 12:43
+*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"), url("./Flaticon.woff") format("woff"), url("./Flaticon.ttf") format("truetype"), url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+/* line 24, ../scss/icon-fonts/_flaticon.scss */
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+/* line 39, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-github-draw-logo:before {
+  content: "\f100";
+}
+
+/* line 40, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-code-fork-symbol:before {
+  content: "\f101";
+}
+
+/* line 41, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-coding:before {
+  content: "\f102";
+}
+
+/* line 42, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-terminal:before {
+  content: "\f103";
+}
+
+/* line 43, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-blog:before {
+  content: "\f104";
+}
+
+/* line 44, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-study:before {
+  content: "\f105";
+}
+
+/* line 45, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-coffee-cup:before {
+  content: "\f106";
+}
+
+/* line 46, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-company:before {
+  content: "\f107";
+}
+
+/* line 47, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-management:before {
+  content: "\f108";
+}
+
+/* line 48, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-customer-support:before {
+  content: "\f109";
+}
+
+/* line 49, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-bot:before {
+  content: "\f10a";
+}
+
+/* line 50, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-close:before {
+  content: "\f10b";
+}
+
+/* line 51, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-multiply:before {
+  content: "\f10c";
+}
+
+/* line 52, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-delete:before {
+  content: "\f10d";
+}
+
+/* line 53, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-cross-out:before {
+  content: "\f10e";
+}
+
+/* line 54, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-robot-1:before {
+  content: "\f10f";
+}
+
+/* line 55, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-artificial-intelligence:before {
+  content: "\f110";
+}
+
+/* line 56, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-technology:before {
+  content: "\f111";
+}
+
+/* line 57, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-robot:before {
+  content: "\f112";
+}
+
+/* line 58, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-paper-plane:before {
+  content: "\f113";
+}
+
+/* line 59, ../scss/icon-fonts/_flaticon.scss */
+.flaticon-microphone-black-shape:before {
+  content: "\f114";
+}
+
+/* line 1, ../scss/layouts/_home.scss */
+body {
+  margin: 0 !important;
+  background: #bc3131;
+  min-height: 100%;
+}
+
+/* line 7, ../scss/layouts/_home.scss */
+body, html {
+  min-height: 100%;
+}
+
+/* line 1, ../scss/components/_input.scss */
+.footer-input {
+  font-family: "Inconsolata Regular", sans-serif;
+  font-size: 2.7rem;
+  padding: 20px;
+  color: rgba(255, 165, 0, 0.7);
+  background: #a02a2a;
+  border-radius: 14px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  margin-bottom: 1rem;
+  display: flex;
+  transform: translateX(-50%);
+}
+/* line 4, ../scss/components/_input.scss */
+.footer-input:before {
+  content: '$ ';
+  flex-grow: 1;
+  color: rgba(255, 165, 0, 0.4);
+  margin-right: 1rem;
+}
+
+/* line 23, ../scss/components/_input.scss */
+input[type="text"].user-input {
+  flex-grow: 2;
+  font-size: 40px;
+  color: orange;
+  font-family: "Inconsolata Bold";
+  background: transparent;
+  border: none;
+  width: 100%;
+  caret-color: orange;
+}
+/* line 31, ../scss/components/_input.scss */
+input[type="text"].user-input:focus {
+  outline: none;
+}
+
+/* line 38, ../scss/components/_input.scss */
+input.user-input::placeholder {
+  color: rgba(255, 165, 0, 0.4);
+  font-family: "Inconsolata Regular", sans-serif;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@font-face {
+  font-family: "Arcade";
+  src: url("../fonts/ARCADE.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Badabb";
+  src: url("../fonts/BADABB__.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space3";
+  src: url("../fonts/space3.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tetri";
+  src: url("../fonts/tetri.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inconsolata Regular";
+  src: url("../fonts/Inconsolata-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inconsolata Bold";
+  src: url("../fonts/Inconsolata-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 43, ../scss/typography/_body.scss */
+body {
+  font-size: 24px;
+  font-family: 'Inconsolata Bold', sans-serif;
+}
+
+/* line 1, ../scss/components/_chatContainer.scss */
+.chat-container {
+  height: 40vh;
+  overflow: auto;
+  width: 80%;
+  padding: 1rem 1.2rem;
+  color: white;
+  font-family: 'Arcade', sans-serif;
+  margin: 1rem auto;
+  background: #a02a2a;
+  text-align: left;
+  border-radius: 14px;
+}
+
+/* width */
+/* line 2, ../scss/components/_scrollbar.scss */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* line 6, ../scss/components/_scrollbar.scss */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+/* line 11, ../scss/components/_scrollbar.scss */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 165, 0, 0.2);
+}
+
+/* Handle on hover */
+/* line 16, ../scss/components/_scrollbar.scss */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 165, 0, 0.5);
+}
+
+/* line 9, ../scss/main.scss */
+.typewrite .wrap {
+  font-size: 3rem;
+  font-family: "Arcade";
+  overflow: hidden;
+  word-spacing: nowrap;
+}
+
+/* line 16, ../scss/main.scss */
+.chat-container .bot-msg {
+  color: black;
+  font-family: 'Arcade', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* line 22, ../scss/main.scss */
+.chat-container .user-msg {
+  color: orange;
+  font-family: 'Inconsolata Bold', sans-serif;
+}
+/* line 26, ../scss/main.scss */
+.chat-container .user-msg:before {
+  content: "$ ";
+}
+
+/* line 31, ../scss/main.scss */
+.heading {
+  text-align: center;
+}
+/* line 33, ../scss/main.scss */
+.heading h1 {
+  font-family: 'Tetri';
+  letter-spacing: .5em;
+  color: orange;
+  margin-top: 0px;
+  padding: 30px 10px;
+}
