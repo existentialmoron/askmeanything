@@ -1,0 +1,3 @@
+[submodule "shashaBotAMA_backend"]
+	path = shashaBotAMA_backend
+	url = https://github.com/shashaBot/shashaBotAMA_backend.git

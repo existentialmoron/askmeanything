@@ -1,6 +1,13 @@
 {
+  "name": "shashaBotAMA",
+  "version": "1.0.0",
+  "description": "A web interface to talk to shashaBot",
+  "main": "index.js",
+  "repository": "https://github.com/shashaBot/shashaBotAMA.git",
+  "author": "Shashwat Gulyani <shashwat.gulyani@gmail.com>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
-    "dialogflow": "^0.3.0",
     "jquery": "^3.3.1"
   }
 }
