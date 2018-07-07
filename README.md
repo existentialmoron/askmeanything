@@ -2,6 +2,8 @@
 
 WIP - A dialogflow agent acting through a web interface for a portfolio website.
 
+![Screenshot](./screenshots/askmeanything_shot.png)
+
 ## What it does
 
 Currently, it replies to hello and yes and no. Basically, I have not touched the dialogflow agent as of now. I am planning to add a lot of small talk and my own personal bio so if stands up to the name "AskMeAnything".
