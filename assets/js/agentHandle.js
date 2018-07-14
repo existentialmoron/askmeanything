@@ -1,4 +1,4 @@
-let baseUrl = 'http://localhost:8000'
+let baseUrl = 'http://ec2-54-174-92-4.compute-1.amazonaws.com:3000'
 
 let detectEndpoint = `/api/detectIntent`
 
