@@ -6,12 +6,13 @@ const cors = require('cors')
 const morgan = require('morgan')
 const app = express()
 const https = require('https')
+const path = require('path')
 app.use(bodyParser.json());
 
 app.use(morgan('dev'));
 
 // Whitelist owned domains or null/file domains and disallow others
-var whitelist = ['null', 'file://', 'http://shashwatgulyani.me', 'https://shashwatgulyani.me', 'https://shashabot.github.io', 'http://127.0.0.1:8080'];
+var whitelist = ['null', 'file://', 'http://127.0.0.1:8080'];
 var corsOptions = {
 	origin: function(origin, callback) {
 		if (!origin) return callback(null, true);
@@ -24,6 +25,8 @@ var corsOptions = {
 	credentials: true
 }
 app.use(cors(corsOptions));
+
+app.use(express.static(path.join(__dirname, 'public')))
 
 const handleIntent = require('./handleIntent')
 app.post('/api/detectIntent', (req, res) => {
