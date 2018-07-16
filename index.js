@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 // Whitelist owned domains or null/file domains and disallow others
-var whitelist = ['null', 'file://', 'http://127.0.0.1:8080'];
+var whitelist = ['null', 'file://', 'http://127.0.0.1:8000', 'http://localhost:8000'];
 var corsOptions = {
 	origin: function(origin, callback) {
 		if (!origin) return callback(null, true);

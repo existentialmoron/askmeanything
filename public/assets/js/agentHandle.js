@@ -1,6 +1,6 @@
 // let axios = require('axios')
 
-let baseUrl = 'http://ec2-54-174-92-4.compute-1.amazonaws.com:3000'
+let baseUrl = ''
 
 let detectEndpoint = `/api/detectIntent`
 
